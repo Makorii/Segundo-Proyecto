@@ -1,0 +1,67 @@
+body{ 
+    background-image: url(Fondos/fondojuegos2.jpg);
+    text-align: center;
+    background-repeat: round;
+    color: rgb(25, 255, 90);
+
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+
+    
+}
+
+#description {
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    margin: 0 0 35px 0;
+}
+
+#survey-form {
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+
+.casilla {
+    width: 25%;
+    height: 30px;
+    border-color: rgb(247, 130, 227);
+    border-width: 3px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.opciones {
+    width: 26%;
+    height: 35px;
+    border-color: rgb(247, 130, 227);
+    border-width: 3px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+.comentarios {
+    width: 25%;
+    height: 25%;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: large;
+    padding: 5px;
+    border-color: rgb(247, 130, 227);
+    border-width: 3px;
+}
+
+.submit {
+    background-color: rgb(247, 130, 227);
+    font-family: 'Yantramanav', sans-serif;
+    font-size: large;
+    width: 26%;
+    height: auto;
+    padding: 11px;
+}

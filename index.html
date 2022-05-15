@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>Formularioencuesta</title>
+            <link href="styles.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
+        </head>
+            <body>
+                <main>
+                    <h1 id="title">Formulario de encuesta Videojuegos</h1>
+                    <p id="description">Con tu opinión se puede mejorar el mundo gamer</p>
+                    <form id="survey-form">
+                        <label id="name-label" for="name">Nombre<br><input id="name" type="text" placeholder="Introduzca su nombre" class="casilla"></label><br>
+                        <label id="email-label" for="email">Correo electronico<br><input id="email" type="text" placeholder="Introduce tu correo electronico" class="casilla"></label><br>
+                        <label id="number-label" for="number">Edad<br><input id="number" type="text" placeholder="Edad" class="casilla"></label><br>
+                        <p>¿Qué tipo de videojuego te gusta?</p>
+                        <select class="opciones" id="dropdown" name="tipo-de-juego">
+                            <option>Seleccione una opción</option>
+                            <option>Disparos</option>
+                            <option>Deporte</option>
+                            <option>Acción</option>
+                            <option>Estrategia</option>
+                            <option>Simulación</option>
+                            <option>Carreras</option>
+                            <option>Aventura</option>
+                            <option>Rol</option>
+                            <option>Otros</option>
+                        </select>
+                            <p>¿Recomendarías jugar videojuegos a tus conocidos?</p>
+                            <label for="si"><input id="Si" type="radio" name="afirmacion-negacion-quizas" value="afirmacion">Si, por supuesto</label><br>
+                            <label for="no"><input id="no" type="radio" name="afirmacion-negacion-quizas" value="negacion">No</label><br>
+                            <label for="quizas"><input id="quizas" type="radio" name="afirmacion-negacion-quizas" value="quizas">Quizás</label><br>
+                            <p>¿Cuál es tu videojuego favorito?</p>
+                        <select class="opciones" id="dropdown-two" name="videojuego-favorito">
+                            <option>Seleccione una opción</option>
+                            <option>Counter Strike: Global Offensive</option>
+                            <option>FIFA</option>
+                            <option>Apex Legends</option>
+                            <option>Fornite</option>
+                            <option>Overwatch</option>
+                            <option>Minecraft</option>
+                            <option>League of Legends</option>
+                            <option>Uncharted</option>
+                            <option>Rocket League</option>
+                            <option>Valorant</option>
+                            <option>Otros</option>
+                        </select>
+                            <p>¿Qué te gustaría mejorar de los videojuegos?</p>
+                            <label for="precio"><input id="precio" type="checkbox" value="precio-accesible">Precios más accesibles</label><br>
+                            <label for="imagen"><input id="imagen" type="checkbox" value="calidad-de-imagen">Calidad de imagen</label><br>
+                            <label for="sonido"><input id="sonido" type="checkbox" value="calidad-de-sonido">Calidad de sonido</label><br>
+                            <label for="servers"><input id="servers" type="checkbox" value="mayor-cantidad-de-servidores">Mayor cantidad de servidores</label><br>
+                            <label for="comunicacion"><input id="comunicacion" type="checkbox" value="la-comunicacion-entre-diferentes-plataformas">La comunicación entre diferentes plataformas</label><br>
+                        <p>¿Algún comentario o sugerencia adicional?</p>    
+                        <textarea class="comentarios" id="sugerencia" name="sugerencia" placeholder="Escriba aqui su comentario o sugerencia"></textarea><br>
+                        <button class="submit" id="submit" type="submit"><strong>Entregar</strong></button>
+
+                    </form>
+                </main>
+            </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </html>
