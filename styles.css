@@ -1,51 +1,61 @@
 body{ 
-    background-image: url(Fondos/fondojuegos2.jpg);
+    background-image: url(Fondos/fondo.jpg);
     text-align: center;
-    background-repeat: round;
     color: rgb(25, 255, 90);
 
 }
 
-#title {
+h1 {
     font-size: 50px;
     font-family: 'Comfortaa', cursive;
-
-    
 }
 
-#description {
+.subtitulo {
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
-    margin: 0 0 35px 0;
 }
 
-#survey-form {
+.contenedor-form {
     font-size: 25px;
     font-family: 'Patrick Hand', cursive;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .casilla {
     width: 25%;
-    height: 30px;
-    border-color: rgb(247, 130, 227);
-    border-width: 3px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(247, 130, 227);
     font-family: 'Yantramanav', sans-serif;
     font-size: large;
     text-align: center;
+}
+
+.contenedor-recomendacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .opciones {
-    width: 26%;
-    height: 35px;
-    border-color: rgb(247, 130, 227);
-    border-width: 3px;
+    width: 25%;
+    padding: 5px;
+    border: 2px solid rgb(247, 130, 227);
     font-family: 'Yantramanav', sans-serif;
     font-size: large;
-    text-align: center;
 }
 
+.contenedor-mejoras {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.opciones-mejoras {
+    margin-left: 50px;
+}
 
 .comentarios {
     width: 25%;
@@ -53,15 +63,15 @@ body{
     font-family: 'Yantramanav', sans-serif;
     font-size: large;
     padding: 5px;
-    border-color: rgb(247, 130, 227);
-    border-width: 3px;
+    border: 2px solid rgb(247, 130, 227);
 }
 
 .submit {
-    background-color: rgb(247, 130, 227);
+    background-color: #fb0f83;
     font-family: 'Yantramanav', sans-serif;
     font-size: large;
     width: 26%;
     height: auto;
     padding: 11px;
+    color: white;
 }
