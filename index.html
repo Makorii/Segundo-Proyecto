@@ -17,9 +17,11 @@
             <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
         </head>
             <body>
-                <main>
+                <header>
                     <h1>Formulario de encuesta Videojuegos</h1>
                     <p class="subtitulo">Con tu opinión se puede mejorar el mundo gamer</p>
+                </header>
+                <main>
                     <form class="contenedor-form">
                         <label id="name-label" for="name">Nombre</label>
                         <input id="name" type="text" placeholder="Introduzca su nombre" class="casilla">
@@ -27,6 +29,8 @@
                         <input id="email" type="text" placeholder="Introduce tu correo electronico" class="casilla">
                         <label id="number-label" for="number">Edad</label>
                         <input id="number" type="text" placeholder="Edad" class="casilla">
+                    </form>
+                    <form class="contenedor-form">
                         <p>¿Qué tipo de videojuego te gusta?</p>
                         <select class="opciones" id="dropdown" name="tipo-de-juego">
                             <option>Seleccione una opción</option>
@@ -40,12 +44,16 @@
                             <option>Rol</option>
                             <option>Otros</option>
                         </select>
+                    </form>
+                    <form class="contenedor-form">
                         <p>¿Recomendarías jugar videojuegos a tus conocidos?</p>
                         <div class="contenedor-recomendacion">
                             <label for="si"><input id="Si" type="radio" name="afirmacion-negacion-quizas" value="afirmacion">Si, por supuesto</label>
                             <label for="no"><input id="no" type="radio" name="afirmacion-negacion-quizas" value="negacion">No</label>
                             <label for="quizas"><input id="quizas" type="radio" name="afirmacion-negacion-quizas" value="quizas">Quizás</label>
                         </div>
+                    </form>
+                    <form class="contenedor-form">
                         <p>¿Cuál es tu videojuego favorito?</p>
                         <select class="opciones" id="dropdown-two" name="videojuego-favorito">
                             <option>Seleccione una opción</option>
@@ -61,6 +69,8 @@
                             <option>Valorant</option>
                             <option>Otros</option>
                         </select>
+                    </form>
+                    <form class="contenedor-form">
                         <p>¿Qué te gustaría mejorar de los videojuegos?</p>
                         <div class="contenedor-mejoras">
                             <label for="precio" class="opciones-mejoras"><input id="precio" type="checkbox" value="precio-accesible">Precios más accesibles</label>
@@ -69,9 +79,11 @@
                             <label for="servers" class="opciones-mejoras"><input id="servers" type="checkbox" value="mayor-cantidad-de-servidores">Mayor cantidad de servidores</label>
                             <label for="comunicacion" class="opciones-mejoras"><input id="comunicacion" type="checkbox" value="la-comunicacion-entre-diferentes-plataformas">La comunicación entre diferentes plataformas</label>
                         </div>
+                    </form>
+                    <form class="contenedor-form">
                         <p>¿Algún comentario o sugerencia adicional?</p>    
-                        <textarea class="comentarios" id="sugerencia" name="sugerencia" cols="20" rows="5" placeholder="Escriba aqui su comentario o sugerencia"></textarea><br>
-                        <button class="submit" id="submit" type="submit"><strong>Entregar</strong></button>
+                        <textarea class="comentarios" id="sugerencia" name="sugerencia" cols="20" rows="5" placeholder="Escriba aqui su comentario o sugerencia"></textarea>
+                        <button class="submit" id="submit" type="submit">Entregar</button>
                     </form>
                 </main>
             </body>
